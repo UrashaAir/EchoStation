@@ -1,10 +1,10 @@
-/mob/living/simple_animal/hostile/slasher
-	name = "Slasher"
-	desc = "The frontline soldier of the strange horde. Slow when not charging, but its blade arms make for powerful melee attacks."
-	icon = 'Minti_modular/code/modules/mob/necro/slasher.dmi'
-	icon_state = "slasher_d"
-	icon_living = "slasher_d"
-	icon_dead = "slasher_d_dead"
+/mob/living/simple_animal/hostile/ubermorph
+	name = "Ubermorph"
+	desc = "A juvenile hivemind. Constantly regenerating, a nigh-immortal leader of the necromorph army."
+	icon = 'Minti_modular/code/modules/mob/living/simple_animal/hostile/ubermorph.dmi'
+	icon_state = "ubermorph"
+	icon_living = "ubermorph"
+	icon_dead = "ubermorph"
 	mob_biotypes = MOB_ORGANIC|MOB_BEAST
 	mouse_opacity = MOUSE_OPACITY_ICON
 	friendly_verb_continuous = "stares at"
@@ -12,12 +12,12 @@
 	speak_emote = list("screams")
 	speed = 5
 	move_to_delay = 5
-	maxHealth = 210
-	health = 210
-	obj_damage = 25
-	melee_damage_lower = 12.5
-	melee_damage_upper = 12.5
-	rapid_melee = 2 // every second attack
+	maxHealth = 250000000
+	health = 250000000
+	obj_damage = 50
+	melee_damage_lower = 25.5
+	melee_damage_upper = 25.5
+	rapid_melee = 4 // every second attack
 	dodging = TRUE
 	dodge_prob = 50
 	attack_verb_continuous = "slashes"
@@ -31,4 +31,3 @@
 	butcher_results = list(/obj/item/reagent_containers/food/snacks/meat/slab = 2)
 	stat_attack = UNCONSCIOUS
 	robust_searching = TRUE
-	death_sound = 'Minti_modular/code/modules/mob/necro/slasher_death_3.ogg'
