@@ -7053,4 +7053,5 @@
 #include "Minti_modular\code\modules\mob\living\simple_animal\friendly\miyako.dm"
 #include "Minti_modular\code\modules\mob\necro\slasher.dm"
 #include "Minti_modular\code\modules\mob\necro\ubermorph.dm"
+#include "tff_modular\modules\uplink_item\code\categories\stealthy_weapons.dm"
 // END_INCLUDE
