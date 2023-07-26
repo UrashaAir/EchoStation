@@ -31,4 +31,4 @@
 	butcher_results = list(/obj/item/reagent_containers/food/snacks/meat/slab = 2)
 	stat_attack = UNCONSCIOUS
 	robust_searching = TRUE
-	death_sound = 'sound/voice/slasher_death_3.ogg'
+	death_sound = 'Minti_modular/code/modules/mob/living/simple_animal/hostile/slasher_death_3.ogg'
