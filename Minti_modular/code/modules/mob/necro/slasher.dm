@@ -1,7 +1,7 @@
 /mob/living/simple_animal/hostile/slasher
 	name = "Slasher"
 	desc = "The frontline soldier of the strange horde. Slow when not charging, but its blade arms make for powerful melee attacks."
-	icon = 'icons/mob/slasher.dmi'
+	icon = 'Minti_modular/code/modules/mob/necro/slasher.dmi'
 	icon_state = "slasher_d"
 	icon_living = "slasher_d"
 	icon_dead = "slasher_d_dead"
