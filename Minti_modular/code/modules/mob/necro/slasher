@@ -1,7 +1,7 @@
 /mob/living/simple_animal/hostile/ubermorph
 	name = "Ubermorph"
 	desc = "A juvenile hivemind. Constantly regenerating, a nigh-immortal leader of the necromorph army."
-	icon = 'icons/mob/ubermorph.dmi'
+	icon = 'Minti_modular/code/modules/mob/necro/ubermorph.dmi'
 	icon_state = "ubermorph"
 	icon_living = "ubermorph"
 	icon_dead = "ubermorph"
